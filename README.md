@@ -27,7 +27,7 @@ var gohan = new Person();
 
 ### modelfire(firebaseLocation)
 
-  Enables your `model` to use and bind to the specified `firebaseLocation`.
+  Enables your [model](https://github.com/component/model)` to use and bind to the specified `firebaseLocation`.
 
 ## License
 
