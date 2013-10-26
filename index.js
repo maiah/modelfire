@@ -1,6 +1,4 @@
-module.exports = modelfire;
-
-function modelfire(firebaseLocation) {
+module.exports = function (firebaseLocation) {
   var firebaseRef = new Firebase(firebaseLocation);
   var firebaseProps = {};
 
@@ -25,7 +23,7 @@ function modelfire(firebaseLocation) {
 
   };
 
-}
+};
 
 function updateModel(model, snapshot) {
   var objProp = {};

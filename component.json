@@ -7,9 +7,7 @@
     "model",
     "firebase"
   ],
-  "dependencies": {
-    "component/model": "*"
-  },
+  "dependencies": {},
   "development": {
     "component/model": "0.1.1"
   },

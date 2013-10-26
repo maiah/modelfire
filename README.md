@@ -9,9 +9,25 @@
 
     $ component install maiah/modelfire
 
+## Usage
+``js
+var model = require('model'),
+    modelfire = require('modelfire');
+
+var Person = model('Person')
+  .attr('name', { type: 'string' })
+  .attr('job', { type: 'string' })
+  .attr('address', { type: 'string' })
+  .use(modelfire('https://myapp.firebaseio.com/'));
+
+var gohan = new Person();
+``
+
 ## API
 
+### modelfire(firebaseLocation)
 
+  Enables your `model` to use and bind to the specified `firebaseLocation`.
 
 ## License
 
