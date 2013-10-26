@@ -15,9 +15,9 @@ var model = require('model'),
     modelfire = require('modelfire');
 
 var Person = model('Person')
-  .attr('name', { type: 'string' })
-  .attr('job', { type: 'string' })
-  .attr('address', { type: 'string' })
+  .attr('name')
+  .attr('job')
+  .attr('address')
   .use(modelfire('https://myapp.firebaseio.com/'));
 
 var gohan = new Person();
