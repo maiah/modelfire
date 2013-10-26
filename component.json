@@ -1,7 +1,7 @@
 {
   "name": "modelfire",
   "repo": "maiah/modelfire",
-  "description": "Model plugin that uses Firebase data source",
+  "description": "Model plugin that uses Firebase datasource",
   "version": "0.0.1",
   "keywords": [
     "model",

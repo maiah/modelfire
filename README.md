@@ -1,7 +1,7 @@
 
 # modelfire
 
-  Model plugin that uses Firebase datasource
+  [Model](https://github.com/component/model) plugin that uses [Firebase](http://www.firebase.com) datasource
 
 ## Installation
 
