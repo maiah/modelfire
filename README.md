@@ -10,7 +10,7 @@
     $ component install maiah/modelfire
 
 ## Usage
-``js
+```js
 var model = require('model'),
     modelfire = require('modelfire');
 
@@ -21,7 +21,7 @@ var Person = model('Person')
   .use(modelfire('https://myapp.firebaseio.com/'));
 
 var gohan = new Person();
-``
+```
 
 ## API
 
