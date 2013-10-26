@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="build/build.js"></script>
+  <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+</head>
+<body>
+<script>
+var model = require('model'),
+    modelfire = require('modelfire');
+
+var Person = model('Person')
+  .attr('name', { type: 'string' })
+  .attr('job', { type: 'string' })
+  .attr('address', { type: 'string' })
+  .use(modelfire('https://teemail.firebaseio.com/'));
+
+var gohan = new Person();
+</script>
+</body>
+</html>

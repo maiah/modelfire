@@ -1,0 +1,21 @@
+{
+  "name": "modelfire",
+  "repo": "maiah/modelfire",
+  "description": "Model plugin that uses Firebase data source",
+  "version": "0.0.1",
+  "keywords": [
+    "model",
+    "firebase"
+  ],
+  "dependencies": {
+    "component/model": "*"
+  },
+  "development": {
+    "component/model": "0.1.1"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
